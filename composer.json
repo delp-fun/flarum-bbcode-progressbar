@@ -1,0 +1,37 @@
+{
+  "name": "delp/progressbar",
+  "description": "BBCode ProgressBar for Flarum",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.14"
+  },
+  "authors": [
+    {
+      "name": "Delp",
+      "email": "contact@delp.community"
+    }
+  ],
+  "replace": {
+    "sijad/flarum-ext-details": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "delp\\ProgressBar\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "ProgressBar BBCode",
+      "category": "formatting",
+      "icon": {
+        "name": "fas fa-tasks",
+        "backgroundColor": "#77dd77",
+        "color": "#fff"
+      }
+    }
+  }
+}
